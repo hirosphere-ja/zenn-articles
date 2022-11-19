@@ -3,7 +3,7 @@ title: "Laravelでバリデーションを実装してみた"
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["PHP","Laravel"]
-published: false
+published: true
 published_at: 2021-07-04 08:00
 ---
 :::message
