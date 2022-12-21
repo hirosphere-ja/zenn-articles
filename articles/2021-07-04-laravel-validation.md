@@ -34,11 +34,11 @@ https://readouble.com/laravel/6.x/ja/validation.html
 バリ<!-- 無視 -->データの生成するにはバリ<!-- 無視 -->データを使うコントローラーにValidatorファサードを使えるようにコードを追加する必要があります。
 今回はUserController.phpに追加します。
 こういうコードって忘れがちなんで気をつけていただければと思います。
-```php
-namespace App\Http\Controllers;
+```diff php
+  namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
+  use App\Http\Controllers\Controller;
+  use Illuminate\Http\Request;
 + use Illuminate\Support\Facades\Validator; //この行を追加
 ```
 

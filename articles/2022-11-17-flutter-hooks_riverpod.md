@@ -111,7 +111,7 @@ class TopPage extends StatelessWidget {
 }
 ```
 ちなみに実行してみるとこんな感じです。
-![](/images/400fdd83f2e5ea/image1.png =400x)
+![](/images/flutter-hooks_riverpod/image1.png =400x)
 AppBarにタイトル「Counter」があるだけでメインの画面には何もありません。
 
 
